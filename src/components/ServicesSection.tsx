@@ -127,7 +127,7 @@ const ServicesSection = () => {
       {/* Car Details Dialog */}
       <Dialog open={!!selectedCar} onOpenChange={(open) => !open && setSelectedCar(null)}>
       <DialogOverlay className="bg-black/10 backdrop-blur-sm fixed inset-0 z-40" />
-        <DialogContent className="max-w-[90vw] sm:max-w-3xl p-0 overflow-hidden rounded-xl max-h-[80vh]">
+        <DialogContent className="max-w-[90vw] sm:max-w-3xl p-0 overflow-y-auto rounded-xl max-h-[80vh]">
           <div className="relative">
             {selectedCar && (
               <div>
