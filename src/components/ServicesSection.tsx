@@ -10,8 +10,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { DialogClose, DialogOverlay } from "@radix-ui/react-dialog";
-import sedan1 from '../assets/shedan1.jpeg'
-import sedan2 from '../assets/shedan2.jpeg'
+import sedan1 from '../assets/sedan4.png'
+import sedan2 from '../assets/sedan5.png'
 import ertiga1 from '../assets/ertiga1.jpeg'
 import ertiga2 from '../assets/ertiga2.jpeg'
 import inner1 from '../assets/inner1.jpeg'
