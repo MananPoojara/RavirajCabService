@@ -1,16 +1,36 @@
 
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { motion } from "framer-motion";
+
 
 const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
+      <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <motion.span 
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="inline-block px-3 py-1 rounded-full bg-yellow-300 text-cab-DEFAULT text-sm font-medium mb-3"
+          >
+            GET IN TOUCH
+        </motion.span>
+
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-cab-dark mb-4">Contact Us</h2>
           <p className="text-cab-muted max-w-2xl mx-auto">
             Have questions or need to book a ride? Contact us directly using the information below.
           </p>
         </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
           <div>

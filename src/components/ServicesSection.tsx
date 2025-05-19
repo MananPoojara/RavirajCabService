@@ -1,5 +1,5 @@
 
-import { Phone, Image } from "lucide-react";
+import { Phone, Image, Check } from "lucide-react";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import {
@@ -10,6 +10,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { DialogClose, DialogOverlay } from "@radix-ui/react-dialog";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
 import sedan1 from '../assets/sedan4.png'
 import sedan2 from '../assets/sedan5.png'
 import ertiga1 from '../assets/ertiga1.jpeg'
@@ -73,10 +75,16 @@ const ServicesSection = () => {
   return (
     <section id="services" className="py-20 bg-gradient-to-b from-blue-50 to-yellow-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-cab-dark mb-4">Our Cars</h2>
-          <p className="text-cab-muted max-w-2xl mx-auto">
-            Choose the perfect ride for your journey with our well-maintained vehicles and experienced drivers.
+      <div className="text-center mb-16">
+          <Badge variant="outline" className="mb-2 px-3 py-1 text-xs font-medium border-cab-accent text-cab-dark">
+            PREMIUM FLEET
+          </Badge>
+          <h2 className="text-4xl font-bold text-black mb-3">
+            Choose Your Perfect Ride
+          </h2>
+          <div className="w-20 h-1 mx-auto bg-cab-accent rounded-full mb-4"></div>
+          <p className="text-black max-w-2xl mx-auto text-lg">
+            Experience comfort and reliability with our well-maintained vehicles and professional drivers.
           </p>
         </div>
 
@@ -109,6 +117,14 @@ const ServicesSection = () => {
                 </div>
                 
                 <p className="text-cab-muted mb-6">{car.description}</p>
+                <div className="grid grid-cols-2 gap-2 mb-5">
+                        {car.features.slice(0, 4).map((feature, i) => (
+                          <div key={i} className="flex items-center gap-1.5">
+                            <Check size={14} className="text-green-500" />
+                            <span className="text-sm text-cab-dark">{feature}</span>
+                          </div>
+                        ))}
+                  </div>
                 
                 <a
                   href="tel:+919265998801"
