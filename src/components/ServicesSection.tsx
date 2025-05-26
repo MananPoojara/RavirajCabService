@@ -164,7 +164,7 @@ const ServicesSection = () => {
   const additionalCars = services.slice(6);
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-blue-50 to-yellow-50">
+    <section id="services" className="py-20 bg-gradient-to-b from-white bg-yellow-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-2 px-3 py-1 text-xs font-medium border-cab-accent text-cab-dark">
