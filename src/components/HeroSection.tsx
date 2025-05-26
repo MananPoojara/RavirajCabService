@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-gradient-to-b from-cab-dark/80 via-cab-dark/70 to-cab-dark/80 z-10"></div>
         <video
-          className="object-cover w-full h-full"
+          className="absolute top-0 left-0 object-cover w-full h-full"
           autoPlay
           loop
           muted
