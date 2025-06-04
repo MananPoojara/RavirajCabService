@@ -23,19 +23,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center h-14 px-4 md:px-6">
       <a href="#" className="flex items-center font-bold">
-        {scrolled ? (
-          /* LOGO when navbar is scrolled */
-          <img
-            src={logo}            /* import logo from "@/assets/logo.png" (or your path) */
-            alt="RavirajCab logo"
-            className="h-52 absolute top-1/2 -translate-y-1/2 w-auto transition-opacity duration-100 opacity-100"
-          />
-        ) : (
-          /* TEXT when at top */
           <span className="text-3xl transition-colors duration-100 text-white">
-            <span className="text-cab-accent">Raviraj</span>Cab
+            <span className="text-cab-accent">RishirajCab</span>
           </span>
-        )}
       </a>
 
         
@@ -47,7 +37,7 @@ const Navbar = () => {
           </div>
           
           <a 
-            href="tel:+919265998801" 
+            href="tel:+916356104847" 
             className={`flex items-center gap-2 ${
               scrolled 
                 ? "bg-cab-accent text-cab-dark hover:bg-yellow-400" 
@@ -55,7 +45,7 @@ const Navbar = () => {
             } font-semibold px-4 py-2 rounded-full transition-colors duration-300 shadow-md`}
           >
             <Phone size={18} className="animate-pulse" />
-            <span className="hidden sm:inline">+91 9265998801</span>
+            <span className="hidden sm:inline">+91 6356104847</span>
           </a>
         </div>
       </div>

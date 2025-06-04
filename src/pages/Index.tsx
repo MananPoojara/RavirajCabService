@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import FloatingCallButton from "@/components/FloatingCallButton";
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import FeedbackForm from "@/components/FeedbackForm";
 
 
 const Index = () => {
@@ -32,6 +33,7 @@ const Index = () => {
       <ContactSection />
       <Footer />
       <FloatingCallButton />
+      <FeedbackForm />
     </motion.div>
   </AnimatePresence>
     
