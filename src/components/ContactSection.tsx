@@ -58,7 +58,7 @@ const ContactSection = () => {
                   <h4 className="font-semibold text-cab-dark">Phone Numbers</h4>
                   <p className="text-cab-muted">
                     Booking: <a href="tel:+919265998801" className="text-cab-DEFAULT hover:underline">+91 9265998801</a><br />
-                    Customer Support: <a href="tel:+919265998801" className="text-cab-DEFAULT hover:underline">+91 9265998801</a>
+                    Customer Support: <a href="tel:+919265998801" className="text-cab-DEFAULT hover:underline">+91 6356104847</a>
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-cab-dark">Email</h4>
                   <p className="text-cab-muted">
-                    <a href="mailto:bookings@ravirajcab.com" className="text-cab-DEFAULT hover:underline">bookings@ravirajcab.com</a>
+                    <a href="mailto:bookings@ravirajcab.com" className="text-cab-DEFAULT hover:underline">bookings@rishirajcab.com</a>
                   </p>
                 </div>
               </div>
