@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 text-center text-sm">
-          <p>&copy; {currentYear} RavirajCab. All rights reserved.</p>
+          <p>&copy; {currentYear} RishirajCab. All rights reserved.</p>
         </div>
       </div>
     </footer>
