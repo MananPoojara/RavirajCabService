@@ -6,7 +6,7 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-cab-DEFAULT text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">About RavirajCab</h2>
+          <h2 className="text-4xl font-bold mb-4">About rishirajCab</h2>
           <p className="max-w-2xl mx-auto text-black">
             Trusted and reliable cab service with years of experience serving our community.
           </p>
@@ -57,7 +57,7 @@ const AboutSection = () => {
         <div className="mt-16 bg-white bg-opacity-10 p-8 rounded-lg backdrop-blur-sm">
           <h3 className="text-2xl font-semibold mb-4 text-center">Our Story</h3>
           <p className="text-black max-w-4xl mx-auto">
-            RavirajCab started as a small local service with just two cars in 2005. Today, we've grown to become one of the most trusted cab services in the region. Our commitment to safety, reliability, and customer satisfaction has earned us a loyal customer base. We take pride in providing comfortable transportation solutions at affordable rates, making travel accessible for everyone. Whether you need a ride for daily commuting, airport transfers, or special occasions, RavirajCab is your reliable partner on the road.
+            rishirajCab started as a small local service with just two cars in 2005. Today, we've grown to become one of the most trusted cab services in the region. Our commitment to safety, reliability, and customer satisfaction has earned us a loyal customer base. We take pride in providing comfortable transportation solutions at affordable rates, making travel accessible for everyone. Whether you need a ride for daily commuting, airport transfers, or special occasions, rishirajCab is your reliable partner on the road.
           </p>
         </div>
       </div>
