@@ -15,7 +15,6 @@ const FeedbackForm = () => {
   });
 
   useEffect(() => {
-    // Check if user has submitted feedback in the last 30 minutes
     const lastSubmission = localStorage.getItem("feedback_last_submission");
     if (lastSubmission) {
       const timeDiff = Date.now() - parseInt(lastSubmission);
@@ -31,7 +30,7 @@ const FeedbackForm = () => {
     if (canSubmit) {
       const timer = setTimeout(() => {
         setIsOpen(true);
-      }, 10000);
+      }, 15000);
 
       return () => clearTimeout(timer);
     }
