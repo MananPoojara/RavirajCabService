@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           
           <a 
-            href="tel:+916356104847" 
+            href="tel:+919265998801" 
             className={`flex items-center gap-2 ${
               scrolled 
                 ? "bg-cab-accent text-cab-dark hover:bg-yellow-400" 
@@ -45,7 +45,7 @@ const Navbar = () => {
             } font-semibold px-4 py-2 rounded-full transition-colors duration-300 shadow-md`}
           >
             <Phone size={18} className="animate-pulse" />
-            <span className="hidden sm:inline">+91 6356104847</span>
+            <span className="hidden sm:inline">+91 9265998801</span>
           </a>
         </div>
       </div>

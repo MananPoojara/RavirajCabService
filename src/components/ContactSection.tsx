@@ -44,7 +44,8 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-cab-dark">Our Office</h4>
                   <p className="text-cab-muted">
-                  Akashwani chowk <br />
+                  Satellite chowk,
+                  Near satellite school <br />
                     Rajkot, Gujrat 360005
                   </p>
                 </div>
@@ -92,7 +93,7 @@ const ContactSection = () => {
           <div className="bg-gray-100 rounded-lg overflow-hidden h-[400px]">
             <iframe
               title="Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.6588333284535!2d70.76045559388417!3d22.28603487604931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cbd2176fdf89%3A0x8e7a16b97d7a7952!2sAkashwani%20Chowk%2C%20Bhawani%20Nagar%2C%20Rajkot%2C%20Gujarat%20360005!5e1!3m2!1sen!2sin!4v1747479726113!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.502767994266!2d70.8205249!3d22.331273499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b739c830e0a7%3A0x7ea24b61c9b0902!2sSatellite%20school%20morbi%20road!5e1!3m2!1sen!2sin!4v1749139524956!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

@@ -157,10 +157,10 @@ const HeroSection = () => {
         >
           Just call us at{" "}
           <a 
-            href="tel:+916356104847" 
+            href="tel:+919265998801" 
             className="text-cab-accent font-semibold hover:text-yellow-300 transition-colors"
           >
-            +91 6356104847
+            +91 9265998801
           </a>
         </motion.p>
         
